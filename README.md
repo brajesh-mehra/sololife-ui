@@ -1,0 +1,2 @@
+# sololife-ui
+Sololife Frontend
