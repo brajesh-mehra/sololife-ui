@@ -1,0 +1,47 @@
+.app-header{
+    overflow: hidden;
+    border-bottom: rgb(182, 180, 180) 2px solid;
+    padding: 0 20px;
+    background: white;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    .header-left{
+        width: 10%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        padding-right: 20px;
+        float: left;
+        .logo{
+            width: 65px;
+            height: auto;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+    }
+    .header-right{
+        width: 85%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        padding-left: 20px;
+        float: right;
+        padding: 10px 0;
+
+        h1{
+            font-size: 24px;
+            margin: 0;
+            color: #0a7e44;
+        }
+        p{
+            font-size: 14px;
+            margin: 4px 0 0 0;
+            color: #666;
+        }
+    }
+}
